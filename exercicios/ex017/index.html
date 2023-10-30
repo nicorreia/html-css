@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /* 
+            MEDIDAS ABSOLUTAS
+            CM, MM, IN (POLEGADA), PX, PT(PONTO), PC(PAICA)
+
+            MEDIDAS RELATIVAS
+            EM, EX, REM, VW, VH, %
+
+            RECOMENDA UTILIZAR ESSE 2 : PX E EM.
+            16PX GERALMENTE = 1EM
+
+            */
+            font-size: 1em;
+
+        }
+        h1 {
+          
+            /* SHORTHAND FONT
+            - FONT STULE -> FONT WEIGHT -> FONT-SIZE -> FONT-FAMILY
+             font-family: 'work sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;*/
+            font: italic bolder 3em 'work sans', sans-serif;
+        }
+        h2 {
+            font: bolder 2em 'work sans'
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+         Pariatur nostrum aperiam beatae fuga officia odio. Deleniti architecto neque aut reiciendis nisi. 
+        Laudantium labore dolore laborum beatae nisi earum harum sint. Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis nobis perspiciatis, perferendis distinctio qui tempora. Ipsa aperiam facere obcaecati incidunt
+         accusantium nulla blanditiis, cupiditate placeat quae quia sunt. Laborum, officia!</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+         Delectus nihil commodi sequi nulla quae quas cumque quidem
+         magni vero adipisci magnam ipsum iste aut cupiditate quos iusto,
+          ipsam at reprehenderit! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique repellendus laudantium magni porro ad quia, a expedita
+           ipsam eos unde aliquam labore maxime autem neque harum enim.
+            Provident, numquam minus!</p>
+</body>
+</html>
