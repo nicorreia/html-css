@@ -13,19 +13,19 @@ html {
 }
 
 header {
-    background-color: rgb(31, 93, 80);
+    background-color: rgb(31, 89, 76);
 }
 header > h1 {
     text-align: center;
 }
 menu ul {
     list-style-type: none;
-    background-color: burlywood;
+    background-color: rgb(135, 173, 222);
 }
 menu li {
-    background-color: rgb(178, 133, 100);
+    background-color: rgb(58, 75, 86);
     display: inline-block;
-    color: rgb(217, 35, 35);
+    color:white;
     padding: 10px ;
 }
 article {
